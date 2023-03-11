@@ -200,7 +200,7 @@ Of course, in real world applications, we would use OTP's GenServers and all pro
 
 This method of distribution is great, but has some flaws. Elixir and OTP provide an application level distribution, which is amazing at handling errors. However, it is developers' responsibility to make the processes aware of each other. Additionally, in case of a hardware failure, OTP will not be able to automatically restart a failed process, since the process does not even have a functioning environment to run on.
 
-One solution to this is to use a container orchestration tool like Kubernetes. Although there is some overlap between K8s and OPT in distributing capabilities, they serve different, but complementary purposes. With K8s, we can containerize out application and run it on multiple machines, however this process is automated by K8s. Additionally, libraries like `libcluster` allow for automatic process discovery within a cluster further improving the developers' experience and speed.
+One solution to this is to use a container orchestration tool like Kubernetes. Although there is some overlap between K8s and OPT in distributing capabilities, they serve different, but complementary purposes. With K8s, we can containerize our application and run it on multiple machines, however this process is automated by K8s. Additionally, libraries like `libcluster` allow for automatic process discovery within a cluster further improving the developers' experience and speed.
 
 ## Conclusion
 
@@ -212,4 +212,4 @@ Personally, I would love to see it used more in North American, and mainly Calga
 
 * [Elixir School](https://elixirschool.com/en/) - An online resource for learning Elixir
 * [Elixir in Action](https://www.manning.com/books/elixir-in-action) - A tutorial book for learning Elixir, great for those coming from OO languages
-* [Kuernetes and the Erlang VM: orchestration on the large and the small](https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/), by José Valim - An article from the creator of Elixir on how Kubernetes and Elixir can work together
+* [Kubernetes and the Erlang VM: orchestration on the large and the small](https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/), by José Valim - An article from the creator of Elixir on how Kubernetes and Elixir can work together
