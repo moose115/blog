@@ -26,3 +26,4 @@ Let's define the stages in our processing. We can break down the pipeline into t
 - **Transforming**: This stage will transform the rows into a map that contains the quadrant and the number of permits in that quadrant. In GenStage, this is called a ProducerConsumer.
 - **Consuming**: This stage will consume the map and write it to a CSV file. In GenStage, this is called a consumer.
 
+# The rest coming coming up very soon!
