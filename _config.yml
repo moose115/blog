@@ -72,12 +72,12 @@ defaults:
 author:
   name: "Mustafa Üçüncü"
   avatar: "/assets/images/avatar.jpg"
-  bio: "Self-taught software developer. Been around web development since 2018. Now moving towards distributed systems."
+  bio: "Self-taught software developer. Been around web development since 2018 and building stuff ever since."
   location: "Calgary, AB"
   links:
     - label: "Github"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mustaf115"
+      url: "https://github.com/moose115"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mustafa-ucuncu"
